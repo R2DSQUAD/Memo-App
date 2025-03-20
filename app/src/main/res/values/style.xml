@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Use this theme in Manifest by default -->
+    <style name="MyLightTheme" parent="Base.AppTheme.Light"></style>
+
+    <!-- Base light theme containing all styles -->
+    <style name="Base.AppTheme.Light" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/background_skyblue</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/indigo</item>
+    </style>
+
+</resources>

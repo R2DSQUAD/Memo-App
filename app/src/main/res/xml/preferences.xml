@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="PIN 암호">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:enabled="true"
+            android:key="on_off_password"
+            android:title="PIN 설정" />
+        <Preference
+            android:title="PIN 추가 / 변경">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetPackage="com.example.sqlite_program"
+                android:targetClass="com.example.sqlite_program.activity.old_password_Activity"
+                />
+
+        </Preference>
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="정보">
+            <Preference
+                android:title="버전"
+                android:summary="1.0.0"/>
+            <Preference
+                android:title="제작"
+                android:summary="강태희"/>
+
+    </PreferenceCategory>
+</PreferenceScreen>
